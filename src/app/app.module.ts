@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { DirectionComponent } from './home/direction/direction.component';
+import { InspiratorComponent } from './home/inspirator/inspirator.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DirectionComponent } from './home/direction/direction.component';
     HomeComponent,
     ContactComponent,
     HeaderComponent,
-    DirectionComponent
+    DirectionComponent,
+    InspiratorComponent
   ],
   imports: [
     BrowserModule,
