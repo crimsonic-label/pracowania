@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { DirectionComponent } from './home/direction/direction.component';
 import { InspiratorComponent } from './home/inspirator/inspirator.component';
+import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: "home", component: HomeComponent },
   {path: "contact", component: ContactComponent },
   {path: "direction", component: DirectionComponent },
-  {path: "inspirator", component: InspiratorComponent }
+  {path: "inspirator", component: InspiratorComponent },
+  {path: "pldgraphics", component: PlDGraphicsComponent }
 ];
 
 @NgModule({

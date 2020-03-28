@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { DirectionComponent } from './home/direction/direction.component';
 import { InspiratorComponent } from './home/inspirator/inspirator.component';
+import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InspiratorComponent } from './home/inspirator/inspirator.component';
     ContactComponent,
     HeaderComponent,
     DirectionComponent,
-    InspiratorComponent
+    InspiratorComponent,
+    PlDGraphicsComponent
   ],
   imports: [
     BrowserModule,
