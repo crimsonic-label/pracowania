@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { DirectionComponent } from './home/direction/direction.component';
 import { InspiratorComponent } from './home/inspirator/inspirator.component';
 import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.component';
+import { GreenBookComponent } from './home/green-book/green-book.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.compone
     HeaderComponent,
     DirectionComponent,
     InspiratorComponent,
-    PlDGraphicsComponent
+    PlDGraphicsComponent,
+    GreenBookComponent
   ],
   imports: [
     BrowserModule,
