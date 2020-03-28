@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@@font-face {
+    font-family: 'Avenir Next Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next Condensed Regular'), url(/assets/fonts/AvenirNextCondensed-Regular-08.tff) format("truetype");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@@font-face {
+    font-family: 'Avenir Next Condensed';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Avenir Next Condensed Bold'), url(/assets/fonts/AvenirNextCondensed-Heavy-09.tff) format("truetype");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Avenir Next Condensed', sans-serif;
+}
+
+body {
+    font: 16px/32px 'Avenir Next Condensed', sans-serif;
+}
+
+.narrow-padding {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.narrow-padding img {
+    margin-bottom: 8px;
+}
+
+.navbar {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 4px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ffc2c2;
+}
+
+.pg-gray {
+    color: #83847a;
+}
+
+.nav-link {
+  letter-spacing: 1px;
+}
