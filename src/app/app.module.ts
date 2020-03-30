@@ -10,6 +10,7 @@ import { DirectionComponent } from './home/direction/direction.component';
 import { InspiratorComponent } from './home/inspirator/inspirator.component';
 import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.component';
 import { GreenBookComponent } from './home/green-book/green-book.component';
+import { PicturesColumnComponent } from './shared/pictures-column/pictures-column.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GreenBookComponent } from './home/green-book/green-book.component';
     DirectionComponent,
     InspiratorComponent,
     PlDGraphicsComponent,
-    GreenBookComponent
+    GreenBookComponent,
+    PicturesColumnComponent
   ],
   imports: [
     BrowserModule,

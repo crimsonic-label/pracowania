@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-8 narrow-padding">
+    <div *ngFor="let picture of pictures">
+      <img class="img-fluid" [src]="picture.src" [alt]="picture.alt">
+    </div>
+  </div>
+  <div class="col-sm-4 narrow-padding">
+    <div class="ml-5">
+      <h3 class="mb-5" ng-show="name">{{name}}</h3>
+      <div class="pg-gray mb-5" ng-show="description">{{description}}</div>
+      <div ng-show="client">
+        <span class="pg-gray">Klient:</span>{{client}}
+      </div>
+    </div>
+  </div>
+</div>
