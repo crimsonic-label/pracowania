@@ -1,24 +1,6 @@
-<div class="row">
-  <div class="col-sm-8 narrow-padding">
-    <img class="img-fluid" src="assets/images/m/migrantki_01.jpg" alt="Migrantki 1">
-    <img class="img-fluid" src="assets/images/m/migrantki_02.jpg" alt="Migrantki 2">
-    <img class="img-fluid" src="assets/images/m/migrantki_03.jpg" alt="Migrantki 3">
-    <img class="img-fluid" src="assets/images/m/migrantki_04.jpg" alt="Migrantki 4">
-    <img class="img-fluid" src="assets/images/m/migrantki_05.jpg" alt="Migrantki 5">
-    <img class="img-fluid" src="assets/images/m/migrantki_06.jpg" alt="Migrantki 6">
-    <img class="img-fluid" src="assets/images/m/migrantki_07.jpg" alt="Migrantki 7">
-  </div>
-  <div class="col-sm-4 narrow-padding">
-    <div class="ml-5">
-      <h3 class="mb-5">
-        KIERUNEK POLSKA
-      </h3>
-      <div class="pg-gray mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna nisi, lobortis quis enim in, commodo dictum lacus.
-      </div>
-      <div>
-        <span class="pg-gray">Klient:</span> Instytut Spraw Publicznych
-      </div>
-    </div>
-  </div>
-</div>
+<app-pictures-column
+  name="KIERUNEK POLSKA"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna nisi, lobortis quis enim in, commodo dictum lacus."
+  client="Instytut Spraw Publicznych"
+  [pictures]="pictures">
+</app-pictures-column>

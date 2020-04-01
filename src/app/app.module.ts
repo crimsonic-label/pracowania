@@ -11,6 +11,7 @@ import { InspiratorComponent } from './home/inspirator/inspirator.component';
 import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.component';
 import { GreenBookComponent } from './home/green-book/green-book.component';
 import { PicturesColumnComponent } from './shared/pictures-column/pictures-column.component';
+import { ChopinComponent } from './home/chopin/chopin.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PicturesColumnComponent } from './shared/pictures-column/pictures-colum
     InspiratorComponent,
     PlDGraphicsComponent,
     GreenBookComponent,
-    PicturesColumnComponent
+    PicturesColumnComponent,
+    ChopinComponent
   ],
   imports: [
     BrowserModule,

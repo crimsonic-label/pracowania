@@ -8,18 +8,17 @@ import { Picture } from '../../shared/picture'
 })
 export class GreenBookComponent implements OnInit {
 
-  pictures: Picture[]
+  pictures: Picture[] = [
+    new Picture("assets/images/greenb/gb_0.png", "Green Book okładka"),
+    new Picture("assets/images/greenb/gb_1.png", "Green Book 1" ),
+    new Picture("assets/images/greenb/gb_2.png", "Green Book 2" ),
+    new Picture("assets/images/greenb/gb_3.jpg", "Green Book 3" ),
+    new Picture("assets/images/greenb/gb_5.jpg", "Green Book 5" )
+  ];
 
   constructor() { }
 
-  ngOnInit(): void {
-    this.pictures = [
-      new Picture("assets/images/greenb/gb_0.png", "Green Book okładka"),
-      new Picture("assets/images/greenb/gb_1.png", "Green Book 1" ),
-      new Picture("assets/images/greenb/gb_2.png", "Green Book 2" ),
-      new Picture("assets/images/greenb/gb_3.jpg", "Green Book 3" ),
-      new Picture("assets/images/greenb/gb_5.jpg", "Green Book 5" )
-    ];
+  ngOnInit(): void {    
   }
 
 }

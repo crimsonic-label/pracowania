@@ -6,6 +6,7 @@ import { DirectionComponent } from './home/direction/direction.component';
 import { InspiratorComponent } from './home/inspirator/inspirator.component';
 import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.component';
 import { GreenBookComponent } from './home/green-book/green-book.component';
+import { ChopinComponent } from './home/chopin/chopin.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: "direction", component: DirectionComponent },
   {path: "inspirator", component: InspiratorComponent },
   {path: "pldgraphics", component: PlDGraphicsComponent },
-  {path: "greenbook", component: GreenBookComponent }
+  {path: "greenbook", component: GreenBookComponent },
+  {path: "chopin", component: ChopinComponent }
 ];
 
 @NgModule({
