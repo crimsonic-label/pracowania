@@ -16,6 +16,8 @@ import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
 import { BorderlessComponent } from './home/borderless/borderless.component';
 import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
 import { PanskaComponent } from './home/panska/panska.component';
+import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
+import { PrzemocComponent } from './home/przemoc/przemoc.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { PanskaComponent } from './home/panska/panska.component';
     CzeresnieComponent,
     BorderlessComponent,
     KsiazkaComponent,
-    PanskaComponent
+    PanskaComponent,
+    KalendarzComponent,
+    PrzemocComponent
   ],
   imports: [
     BrowserModule,
