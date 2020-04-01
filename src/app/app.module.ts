@@ -13,6 +13,7 @@ import { GreenBookComponent } from './home/green-book/green-book.component';
 import { PicturesColumnComponent } from './shared/pictures-column/pictures-column.component';
 import { ChopinComponent } from './home/chopin/chopin.component';
 import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
+import { BorderlessComponent } from './home/borderless/borderless.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
     GreenBookComponent,
     PicturesColumnComponent,
     ChopinComponent,
-    CzeresnieComponent
+    CzeresnieComponent,
+    BorderlessComponent
   ],
   imports: [
     BrowserModule,

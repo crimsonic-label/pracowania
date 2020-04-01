@@ -8,6 +8,7 @@ import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.compone
 import { GreenBookComponent } from './home/green-book/green-book.component';
 import { ChopinComponent } from './home/chopin/chopin.component';
 import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
+import { BorderlessComponent } from './home/borderless/borderless.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path: "pldgraphics", component: PlDGraphicsComponent },
   {path: "greenbook", component: GreenBookComponent },
   {path: "chopin", component: ChopinComponent },
-  {path: "czeresnie", component: CzeresnieComponent }
+  {path: "czeresnie", component: CzeresnieComponent },
+  {path: "borderless", component: BorderlessComponent }
 ];
 
 @NgModule({
