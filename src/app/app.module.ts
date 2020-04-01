@@ -12,6 +12,7 @@ import { PlDGraphicsComponent } from './home/pl-d-graphics/pl-d-graphics.compone
 import { GreenBookComponent } from './home/green-book/green-book.component';
 import { PicturesColumnComponent } from './shared/pictures-column/pictures-column.component';
 import { ChopinComponent } from './home/chopin/chopin.component';
+import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ChopinComponent } from './home/chopin/chopin.component';
     PlDGraphicsComponent,
     GreenBookComponent,
     PicturesColumnComponent,
-    ChopinComponent
+    ChopinComponent,
+    CzeresnieComponent
   ],
   imports: [
     BrowserModule,

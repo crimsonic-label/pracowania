@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Picture } from '../../shared/picture'
+import { Picture } from '../../shared/picture';
 
 @Component({
   selector: 'app-direction',
