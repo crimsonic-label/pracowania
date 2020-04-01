@@ -10,6 +10,7 @@ import { ChopinComponent } from './home/chopin/chopin.component';
 import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
 import { BorderlessComponent } from './home/borderless/borderless.component';
 import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
+import { PanskaComponent } from './home/panska/panska.component';
 
 
 const routes: Routes = [
@@ -23,7 +24,8 @@ const routes: Routes = [
   {path: "chopin", component: ChopinComponent },
   {path: "czeresnie", component: CzeresnieComponent },
   {path: "borderless", component: BorderlessComponent },
-  {path: "ksiazka", component: KsiazkaComponent }
+  {path: "ksiazka", component: KsiazkaComponent },
+  {path: "panska", component: PanskaComponent }
 ];
 
 @NgModule({

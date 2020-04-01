@@ -15,6 +15,7 @@ import { ChopinComponent } from './home/chopin/chopin.component';
 import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
 import { BorderlessComponent } from './home/borderless/borderless.component';
 import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
+import { PanskaComponent } from './home/panska/panska.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
     ChopinComponent,
     CzeresnieComponent,
     BorderlessComponent,
-    KsiazkaComponent
+    KsiazkaComponent,
+    PanskaComponent
   ],
   imports: [
     BrowserModule,
