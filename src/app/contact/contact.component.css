@@ -1,0 +1,16 @@
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.black-letter {
+  font-size: 160px;
+  line-height: 80%;
+  color: black;
+  font-family: 'Avenir Next Condensed', sans-serif;
+}
+
+.borderless td {
+  border: none;
+}

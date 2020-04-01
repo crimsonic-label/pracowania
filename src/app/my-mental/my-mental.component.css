@@ -1,0 +1,17 @@
+.pink {
+  color: #facdd0;
+}
+
+.black {
+  color: black;
+}
+
+.text {
+  line-height: 130%;  
+}
+
+.big-letter {
+  font-size: 240px;
+  line-height: 80%;
+  font-family: 'Avenir Next Condensed', sans-serif;
+}

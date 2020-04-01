@@ -18,6 +18,7 @@ import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
 import { PanskaComponent } from './home/panska/panska.component';
 import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
 import { PrzemocComponent } from './home/przemoc/przemoc.component';
+import { MyMentalComponent } from './my-mental/my-mental.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PrzemocComponent } from './home/przemoc/przemoc.component';
     KsiazkaComponent,
     PanskaComponent,
     KalendarzComponent,
-    PrzemocComponent
+    PrzemocComponent,
+    MyMentalComponent
   ],
   imports: [
     BrowserModule,

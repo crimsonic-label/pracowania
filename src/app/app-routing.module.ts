@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MyMentalComponent } from './my-mental/my-mental.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { DirectionComponent } from './home/direction/direction.component';
@@ -17,6 +18,7 @@ import { PrzemocComponent } from './home/przemoc/przemoc.component';
 
 const routes: Routes = [
   {path: "", pathMatch: "full", redirectTo: "home"},
+  {path: "my", component: MyMentalComponent },
   {path: "home", component: HomeComponent },
   {path: "contact", component: ContactComponent },
   {path: "direction", component: DirectionComponent },
