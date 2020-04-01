@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Picture } from '../../shared/picture'
 
 @Component({
   selector: 'app-green-book',
@@ -7,17 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GreenBookComponent implements OnInit {
 
-  pictures: any[]
+  pictures: Picture[]
 
   constructor() { }
 
   ngOnInit(): void {
     this.pictures = [
-      { src: "assets/images/greenb/gb_0.png", alt: "Green Book okładka" },
-      { src: "assets/images/greenb/gb_1.png", alt: "Green Book 1" },
-      { src: "assets/images/greenb/gb_2.png", alt: "Green Book 2" },
-      { src: "assets/images/greenb/gb_3.jpg", alt: "Green Book 3" },
-      { src: "assets/images/greenb/gb_5.jpg", alt: "Green Book 5" }
+      new Picture("assets/images/greenb/gb_0.png", "Green Book okładka"),
+      new Picture("assets/images/greenb/gb_1.png", "Green Book 1" ),
+      new Picture("assets/images/greenb/gb_2.png", "Green Book 2" ),
+      new Picture("assets/images/greenb/gb_3.jpg", "Green Book 3" ),
+      new Picture("assets/images/greenb/gb_5.jpg", "Green Book 5" )
     ];
   }
 

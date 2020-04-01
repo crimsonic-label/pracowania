@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Picture } from '../picture'
 
 @Component({
   selector: 'app-pictures-column',
@@ -10,7 +11,7 @@ export class PicturesColumnComponent implements OnInit {
   @Input() name: string;
   @Input() description: string;
   @Input() client: string;
-  @Input() pictures: any[];
+  @Input() pictures: Picture[];
 
   constructor() { }
 
