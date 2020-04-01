@@ -14,6 +14,7 @@ import { PicturesColumnComponent } from './shared/pictures-column/pictures-colum
 import { ChopinComponent } from './home/chopin/chopin.component';
 import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
 import { BorderlessComponent } from './home/borderless/borderless.component';
+import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BorderlessComponent } from './home/borderless/borderless.component';
     PicturesColumnComponent,
     ChopinComponent,
     CzeresnieComponent,
-    BorderlessComponent
+    BorderlessComponent,
+    KsiazkaComponent
   ],
   imports: [
     BrowserModule,

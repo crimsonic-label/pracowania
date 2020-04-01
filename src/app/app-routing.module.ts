@@ -9,6 +9,7 @@ import { GreenBookComponent } from './home/green-book/green-book.component';
 import { ChopinComponent } from './home/chopin/chopin.component';
 import { CzeresnieComponent } from './home/czeresnie/czeresnie.component';
 import { BorderlessComponent } from './home/borderless/borderless.component';
+import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path: "greenbook", component: GreenBookComponent },
   {path: "chopin", component: ChopinComponent },
   {path: "czeresnie", component: CzeresnieComponent },
-  {path: "borderless", component: BorderlessComponent }
+  {path: "borderless", component: BorderlessComponent },
+  {path: "ksiazka", component: KsiazkaComponent }
 ];
 
 @NgModule({
