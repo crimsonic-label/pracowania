@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -19,6 +21,7 @@ import { PanskaComponent } from './home/panska/panska.component';
 import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
 import { PrzemocComponent } from './home/przemoc/przemoc.component';
 import { MyMentalComponent } from './my-mental/my-mental.component';
+
 
 @NgModule({
   declarations: [
@@ -42,6 +45,7 @@ import { MyMentalComponent } from './my-mental/my-mental.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],

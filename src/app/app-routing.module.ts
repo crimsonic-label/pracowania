@@ -19,19 +19,19 @@ import { PrzemocComponent } from './home/przemoc/przemoc.component';
 const routes: Routes = [
   {path: "", pathMatch: "full", redirectTo: "home"},
   {path: "my", component: MyMentalComponent },
-  {path: "home", component: HomeComponent },
+  {path: "home", component: HomeComponent, data: {animation: 'home'} },
   {path: "contact", component: ContactComponent },
-  {path: "direction", component: DirectionComponent },
-  {path: "inspirator", component: InspiratorComponent },
-  {path: "pldgraphics", component: PlDGraphicsComponent },
-  {path: "greenbook", component: GreenBookComponent },
-  {path: "chopin", component: ChopinComponent },
-  {path: "czeresnie", component: CzeresnieComponent },
-  {path: "borderless", component: BorderlessComponent },
-  {path: "ksiazka", component: KsiazkaComponent },
-  {path: "panska", component: PanskaComponent },
-  {path: "kalendarz", component: KalendarzComponent },
-  {path: "przemoc", component: PrzemocComponent }
+  {path: "direction", component: DirectionComponent, data: {animation: 'portfolio'} },
+  {path: "inspirator", component: InspiratorComponent, data: {animation: 'portfolio'} },
+  {path: "pldgraphics", component: PlDGraphicsComponent, data: {animation: 'portfolio'} },
+  {path: "greenbook", component: GreenBookComponent, data: {animation: 'portfolio'} },
+  {path: "chopin", component: ChopinComponent, data: {animation: 'portfolio'} },
+  {path: "czeresnie", component: CzeresnieComponent, data: {animation: 'portfolio'} },
+  {path: "borderless", component: BorderlessComponent, data: {animation: 'portfolio'} },
+  {path: "ksiazka", component: KsiazkaComponent, data: {animation: 'portfolio'} },
+  {path: "panska", component: PanskaComponent, data: {animation: 'portfolio'} },
+  {path: "kalendarz", component: KalendarzComponent, data: {animation: 'portfolio'} },
+  {path: "przemoc", component: PrzemocComponent, data: {animation: 'portfolio'} }
 ];
 
 @NgModule({
