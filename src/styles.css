@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @@font-face {
     font-family: 'Avenir Next Condensed';
     font-style: normal;
@@ -51,4 +54,22 @@ body {
 
 .nav-link {
   letter-spacing: 1px;
+}
+
+.porfoltio {
+  font: 14px/22px 'Open Sans', sans-serif;
+}
+
+.portfolio h3 {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.my {
+  font: 15px/23px 'Open Sans', sans-serif;
+}
+
+.contact {
+  font: 22px/34px 'Open Sans', sans-serif;
+  letter-spacing: 3px;
 }

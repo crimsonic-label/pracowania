@@ -21,17 +21,17 @@ const routes: Routes = [
   {path: "my", component: MyMentalComponent },
   {path: "home", component: HomeComponent, data: {animation: 'home'} },
   {path: "contact", component: ContactComponent },
-  {path: "direction", component: DirectionComponent, data: {animation: 'portfolio'} },
-  {path: "inspirator", component: InspiratorComponent, data: {animation: 'portfolio'} },
-  {path: "pldgraphics", component: PlDGraphicsComponent, data: {animation: 'portfolio'} },
-  {path: "greenbook", component: GreenBookComponent, data: {animation: 'portfolio'} },
-  {path: "chopin", component: ChopinComponent, data: {animation: 'portfolio'} },
-  {path: "czeresnie", component: CzeresnieComponent, data: {animation: 'portfolio'} },
-  {path: "borderless", component: BorderlessComponent, data: {animation: 'portfolio'} },
-  {path: "ksiazka", component: KsiazkaComponent, data: {animation: 'portfolio'} },
-  {path: "panska", component: PanskaComponent, data: {animation: 'portfolio'} },
-  {path: "kalendarz", component: KalendarzComponent, data: {animation: 'portfolio'} },
-  {path: "przemoc", component: PrzemocComponent, data: {animation: 'portfolio'} }
+  {path: "home/direction", component: DirectionComponent, data: {animation: 'portfolio'} },
+  {path: "home/inspirator", component: InspiratorComponent, data: {animation: 'portfolio'} },
+  {path: "home/pldgraphics", component: PlDGraphicsComponent, data: {animation: 'portfolio'} },
+  {path: "home/greenbook", component: GreenBookComponent, data: {animation: 'portfolio'} },
+  {path: "home/chopin", component: ChopinComponent, data: {animation: 'portfolio'} },
+  {path: "home/czeresnie", component: CzeresnieComponent, data: {animation: 'portfolio'} },
+  {path: "home/borderless", component: BorderlessComponent, data: {animation: 'portfolio'} },
+  {path: "home/ksiazka", component: KsiazkaComponent, data: {animation: 'portfolio'} },
+  {path: "home/panska", component: PanskaComponent, data: {animation: 'portfolio'} },
+  {path: "home/kalendarz", component: KalendarzComponent, data: {animation: 'portfolio'} },
+  {path: "home/przemoc", component: PrzemocComponent, data: {animation: 'portfolio'} }
 ];
 
 @NgModule({
