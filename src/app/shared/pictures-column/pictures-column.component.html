@@ -6,10 +6,10 @@
   </div>
   <div class="col-sm-4 narrow-padding portfolio">
     <div class="ml-5">
-      <h3 class="mb-5" ng-show="name">{{name}}</h3>
-      <div class="pg-gray mb-4" ng-show="description">{{description}}</div>
-      <div ng-show="client">
-        <span class="pg-gray">Klient: </span>{{client}}
+      <h3 class="mb-5 portfolio-header" ng-show="name">{{name}}</h3>
+      <div class="pg-gray mb-4 portfolio-desc" ng-show="description">{{description}}</div>
+      <div ng-show="client" class="portfolio-desc">
+        <span class="pg-gray portfolio-client">Klient: </span>{{client}}
       </div>
     </div>
   </div>
