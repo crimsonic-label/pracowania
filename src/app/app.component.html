@@ -1,6 +1,11 @@
-<div class="container">
+<div class="container sticky">
   <app-header></app-header>
+</div>
+<div class="container">
   <div [@routeAnimation]="getAnimationData(routerOutlet)" class="mt-5 bottom-margin">
     <router-outlet #routerOutlet="outlet"></router-outlet>
   </div>
+</div>
+<div class="container">
+  <app-footer></app-footer>
 </div>

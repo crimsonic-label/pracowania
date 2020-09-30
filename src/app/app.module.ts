@@ -21,6 +21,7 @@ import { PanskaComponent } from './home/panska/panska.component';
 import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
 import { PrzemocComponent } from './home/przemoc/przemoc.component';
 import { MyMentalComponent } from './my-mental/my-mental.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { MyMentalComponent } from './my-mental/my-mental.component';
     PanskaComponent,
     KalendarzComponent,
     PrzemocComponent,
-    MyMentalComponent
+    MyMentalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

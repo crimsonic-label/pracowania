@@ -41,6 +41,14 @@ body {
     padding: 4px;
 }
 
+.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background-color: white;
+}
+
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -83,4 +91,17 @@ body {
 
 .portfolio-client {
   font: 'Open Sans', sans-serif;
+}
+
+.footer {
+  text-align: right;
+  margin-right: -108px
+}
+
+.footer-contact {
+  color: #b2b4b7;
+}
+
+.footer-contact:hover {
+  color: #b2b4b7;
 }
