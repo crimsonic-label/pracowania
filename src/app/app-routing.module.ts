@@ -14,6 +14,7 @@ import { KsiazkaComponent } from './home/ksiazka/ksiazka.component';
 import { PanskaComponent } from './home/panska/panska.component';
 import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
 import { PrzemocComponent } from './home/przemoc/przemoc.component';
+import { BeesComponent } from './home/bees/bees.component';
 
 
 const routes: Routes = [
@@ -31,7 +32,8 @@ const routes: Routes = [
   {path: "home/ksiazka", component: KsiazkaComponent, data: {animation: 'portfolio'} },
   {path: "home/panska", component: PanskaComponent, data: {animation: 'portfolio'} },
   {path: "home/kalendarz", component: KalendarzComponent, data: {animation: 'portfolio'} },
-  {path: "home/przemoc", component: PrzemocComponent, data: {animation: 'portfolio'} }
+  {path: "home/przemoc", component: PrzemocComponent, data: {animation: 'portfolio'} },
+  {path: "home/bees", component: BeesComponent, data: {animation: 'portfolio'} }
 ];
 
 @NgModule({

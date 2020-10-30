@@ -22,6 +22,7 @@ import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
 import { PrzemocComponent } from './home/przemoc/przemoc.component';
 import { MyMentalComponent } from './my-mental/my-mental.component';
 import { FooterComponent } from './footer/footer.component';
+import { BeesComponent } from './home/bees/bees.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { FooterComponent } from './footer/footer.component';
     KalendarzComponent,
     PrzemocComponent,
     MyMentalComponent,
-    FooterComponent
+    FooterComponent,
+    BeesComponent
   ],
   imports: [
     BrowserModule,
