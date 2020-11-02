@@ -15,6 +15,8 @@ import { PanskaComponent } from './home/panska/panska.component';
 import { KalendarzComponent } from './home/kalendarz/kalendarz.component';
 import { PrzemocComponent } from './home/przemoc/przemoc.component';
 import { BeesComponent } from './home/bees/bees.component';
+import { RadarComponent } from './home/radar/radar.component';
+import { BrunoComponent } from './home/bruno/bruno.component';
 
 
 const routes: Routes = [
@@ -33,7 +35,9 @@ const routes: Routes = [
   {path: "home/panska", component: PanskaComponent, data: {animation: 'portfolio'} },
   {path: "home/kalendarz", component: KalendarzComponent, data: {animation: 'portfolio'} },
   {path: "home/przemoc", component: PrzemocComponent, data: {animation: 'portfolio'} },
-  {path: "home/bees", component: BeesComponent, data: {animation: 'portfolio'} }
+  {path: "home/bees", component: BeesComponent, data: {animation: 'portfolio'} },
+  {path: "home/radar", component: RadarComponent, data: {animation: 'portfolio'} },
+  {path: "home/bruno", component: BrunoComponent, data: {animation: 'portfolio'} }
 ];
 
 @NgModule({

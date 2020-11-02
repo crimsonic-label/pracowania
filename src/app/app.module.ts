@@ -23,6 +23,8 @@ import { PrzemocComponent } from './home/przemoc/przemoc.component';
 import { MyMentalComponent } from './my-mental/my-mental.component';
 import { FooterComponent } from './footer/footer.component';
 import { BeesComponent } from './home/bees/bees.component';
+import { RadarComponent } from './home/radar/radar.component';
+import { BrunoComponent } from './home/bruno/bruno.component';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { BeesComponent } from './home/bees/bees.component';
     PrzemocComponent,
     MyMentalComponent,
     FooterComponent,
-    BeesComponent
+    BeesComponent,
+    RadarComponent,
+    BrunoComponent
   ],
   imports: [
     BrowserModule,
