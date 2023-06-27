@@ -14,3 +14,8 @@
 .borderless td {
   border: none;
 }
+
+a.contact-link, a.contact-link:hover {
+  text-decoration: none;
+  color: rgb(33, 37, 41)
+}

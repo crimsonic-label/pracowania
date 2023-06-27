@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { slideInAnimation } from './animation';
 import { RouterOutlet } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,16 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'pracownia';
 
+  constructor(
+    public translate: TranslateService
+  ){
+    // Register translation languages
+    translate.addLangs(['en', 'pl']);
+    translate.setDefaultLang('pl');
+    translate.currentLang = 'pl';
+  }
+
   getAnimationData(outlet: RouterOutlet) {
-    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
 }

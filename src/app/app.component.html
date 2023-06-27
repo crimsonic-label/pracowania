@@ -2,7 +2,8 @@
   <app-header></app-header>
 </div>
 <div class="container">
-  <div [@routeAnimation]="getAnimationData(routerOutlet)" class="mt-5 bottom-margin">
+  <div class="top-separator"></div>
+  <div [@routeAnimation]="getAnimationData(routerOutlet)" class="bottom-margin">
     <router-outlet #routerOutlet="outlet"></router-outlet>
   </div>
 </div>
