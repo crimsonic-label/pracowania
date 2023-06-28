@@ -1,0 +1,103 @@
+{
+	"menu": {
+		"we": "MY",
+		"portfolio": "PORTFOLIO",
+		"contact": "KONTAKT"		
+	},
+	"we": {
+		"paragraph1": {
+			"line1": "Cześć! Pracownia Grafiki to my,",
+			"line2": "Dorota Gawryszewska i Ania Jaworska-Kruk.",
+			"line3": "Jesteśmy absolwentkami warszawskiej",
+			"line4": "Akademii Sztuk Pięknych, a naszą Pracownię",
+			"line5": "tworzymy od ponad dziesięciu lat."
+		},
+		"paragraph2": {
+			"line1": "Bliska sercu jest nam grafika wydawnicza",
+			"line2": "i projekty związane z kulturą, ale działamy też",
+			"line3": "na innych polach. Przede wszystkim kochamy",
+			"line4": "dobry dizajn i takim chcemy się otaczać."
+		},
+		"paragraph3": {
+			"line1": "Projektujemy publikacje, książki, plakaty,",
+			"line2": "infografiki. Zajmujemy się tworzeniem",
+			"line3": "identyfikacji wizualnej marki."
+		},	
+		"paragraph4": "Od 2011 roku jesteśmy członkiem STGU.",
+		"paragraph5": {
+			"line1": "Jeśli chcesz z nami współpracować, napisz",
+			"line2": "do nas!"
+		}		
+	},
+	"portfolio": {
+		"client": "Klient",
+		"chopin": {
+			"title": "KONCERTY CHOPINOWSKIE",
+			"desc": "Oprawa graficzna koncertów chopinowskich organizowanych przez Arkadię, z okazji 202. urodzin Fryderyka Chopina. "
+		},
+		"direction" :{
+			"title": "KIERUNEK POLSKA",
+			"desc": "Katalog laureatów konkursu literackiego. Publikacja powstała w ramach projektu „Zobacz niewidzialne\"",
+			"client": "Instytut Spraw Publicznych"
+		},
+		"czeresnie": {
+			"title": "CZEREŚNIE",
+			"desc": "Projekt logo, strony internetowej i okładki płyty dla zespołu muzycznego i studia fotograficznego działającego wspólnie pod tą samą nazwą.",
+			"client": "Studio Czereśnia"
+		},
+		"panska": {
+			"title": "RESTAURACJA PAŃSKA",
+  			"desc": "Podjęłyśmy się wyzwania zaprojektowania logo chińskiej restauracji, mieszczącej się w secesyjnej warszawskiej kamienicy o nowoczesnym wnętrzu, nawiązującym do Art Deco.",
+  			"client": "Restauracja PAŃSKA 85"
+		},
+		"ksiazka": {
+			"title": "KEROUAC",
+  			"desc": "Projekt serii okładek powieści Jacka Kerouaca, amerykańskiego pisarza beat generation.",
+  			"client": "W.A.B."
+		},
+		"borderless": {
+			"title": "BORDERLESS PEOPLE",
+  			"desc" :"Katalog międzynarodowej konferencji Borderless people organizowanej przez Stowarzyszenie Willa Decjusza oraz UN Refugee Agency.",
+  			"client": "Willa Decjusza"
+		},
+		"kalendarz": {
+			"title": "KALENDARZ",
+  			"desc" :"Kalendarz ścienny w formie plakatów.",
+  			"client": "Narodowe Centrum Kultury"
+		},
+		"bruno": {
+			"title": "URODZINY SCHULZA",
+  			"desc": "Projekt torby dla Narodowego Centrum Kultury z okazji 120-stej rocznicy urodzin Brunona Schulza."
+		},
+		"przemoc": {
+			"title": "PRZEMOC EKONOMICZNA",
+  			"desc": "Seria infografik i prezentacja dotyczące przemocy ekonomicznej.",
+  			"client": "Instytut Spraw Publicznych"
+		},
+		"greenbook": {
+			"title": "ZIELONA KSIĘGA",
+  			"desc": "Projekt okładki, layoutu oraz skład publikacji.",
+  			"client": "Instytut Spraw Publicznych"
+		},
+		"radar": {
+			"title": "MAGAZYN RADAR",
+  			"desc": "RADAR, międzynarodowe pismo literackie, wydawane po niemiecku, polsku i ukraińsku. Od&nbsp;początku do końca nasze dzieło. Zaprojektowałyśmy logo i lauyout magazynu, a także przez parę lat zajmowałyśmy się składem i przygotowywałyśmy ilustracje.",
+  			"client": "Willa Decjusza"			
+		},
+		"pldgraphics": {
+			"title": "RELACJE POLSKO-NIEMIECKIE",
+  			"desc": "Infografiki.",
+  			"client": "Instytut Spraw Publicznych"			
+		},
+		"bees": {
+			"title": "3BEES",
+  			"desc": "3Bees to firma couchingowa. Trzy kobiety – 3Bees. Same wymyśliły nazwę swojej firmy, my stworzyłyśmy  identyfikację wizualną. Powstał projekt logo, wizytówek, papeterii firmowej oraz brand book.",
+  			"client": "3BEES"						
+		},
+		"inspirator": {
+			"title": "INSPIRATOR RÓWNOŚCIOWY",
+  			"desc": "Publikacja na temat równości w dostępie do dóbr i usług przez miekszkańców Warszawy.",
+  			"client": "Instytut Spraw Publicznych"						
+		}
+	}
+}

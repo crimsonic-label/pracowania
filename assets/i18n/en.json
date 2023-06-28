@@ -1,0 +1,103 @@
+{
+	"menu": {
+		"we": "WE",
+		"portfolio": "PORTFOLIO",
+		"contact": "CONTACT"	
+	},
+	"we": {
+		"paragraph1": {
+			"line1": "Hello! Pracownia Grafiki is a graphic design",
+			"line2": "studio created by Ania Jaworska-Kruk and",
+			"line3": "Dorota Gawryszewska. We are graduates",
+			"line4": "of The Academy of Fine Arts in Warsaw",
+			"line5": "and we have collaborated for over a decade."
+		},
+		"paragraph2": {
+			"line1": "We are passionate about editorial design",
+			"line2": "and designs for cultural institutions, but also",
+			"line3": "in other various areas, such as…………… Most of all we love",
+			"line4": "good design and we want to be surrounded by such."
+		},
+		"paragraph3": {
+			"line1": "We design publications, book covers,",
+			"line2": "posters, infographics, packages.",
+			"line3": "iWe take care of a brand identity."
+		},
+		"paragraph4": "Since 2011, we have been members of the Polish Association of Graphic Designers (STGU).",
+		"paragraph5": {
+			"line1": "If you want to see what we can do for you (link do czegoś, co zrobiłyście),",
+			"line2": "send us an email!"
+		}
+	},
+	"portfolio": {
+		"client": "Client",
+		"chopin": {
+			"title": "CHOPIN’S CONCERTS",
+			"desc": "Graphic design for Chopin’s concerts organised on the occasion of his 202nd birthday anniversary"
+		},
+		"direction" :{
+			"title": "DIRECTION POLAND",
+			"desc": "Design of a catalogue presenting the winners of the literary competition",
+			"client": "Institute of Public Affairs (IPA)"
+		},
+		"czeresnie": {
+			"title": "CZEREŚNIE",
+			"desc": "Design of a logo, website, cd cover for a music band.",
+			"client": "Czereśnie"
+		},
+		"panska": {
+			"title": "PAŃSKA85",
+  			"desc": "We took the effort of designing a logo of the Chinese restaurant located in an iconic Art Nouveau building (Warsaw) with a state-of-the-art modern interior. Quite a challenge!",
+  			"client": "Pańska85 restaurant"
+		},
+		"ksiazka": {
+			"title": "KEROUAC",
+  			"desc": "A series of cover designs of Jack Kerouac’s books.",
+  			"client": "W.A.B. publishing house"
+  		},
+		"borderless": {
+			"title": "BORDERLESS PEOPLE",
+  			"desc": "A catalogue prepared for an international conference, titled “Borderless People”, which was organised by Villa Decius Association and UN Refugee Agency.",
+  			"client": "Villa Decius Association"
+		},
+		"kalendarz": {
+			"title": "CALENDAR",
+  			"desc": "A calendar in the form of posters.",
+  			"client": "National Centre for Culture Poland"
+		},
+		"bruno": {
+			"title": " SCHULZ’S BIRTHDAY",
+  			"desc": "We designed a bag on the occasion of the 120 birthday anniversary of Bruno Schulz."
+  		},
+		"przemoc": {
+			"title": "ECONOMIC VIOLENCE",
+  			"desc": "A series of infographics and a web presentation on economic violence.",
+  			"client": "Institute of Public Affairs (IPA)"
+  		},
+  		"greenbook": {
+			"title": "GREEN BOOK",
+  			"desc": "The layout and cover designs of a book.",
+  			"client": "Institute of Public Affairs (IPA)"
+		},
+		"radar": {
+			"title": "RADAR MAGAZINE",
+  			"desc": "Radar is an international literary magazine published in Polish, Ukrainian and German. We designed it from scratch.",
+  			"client": "Villa Decius Association"			
+		},
+		"pldgraphics": {
+			"title": "POLISH-GERMAN RELATIONS",
+  			"desc": "Infographics",
+  			"client": "Institute of Public Affairs (IPA)"			
+		},
+		"bees": {
+			"title": "3BEES",
+  			"desc": "3Bees is a coaching business. 3 women – 3 bees. We created its brand’s identity with a brand book: a logo, name cards, stationery.",
+  			"client": "3bees"						
+		},
+		"inspirator": {
+			"title": "EQUALITY INSPIRATOR",
+  			"desc": "A publication on the equal access to goods among the Varsovians.",
+  			"client": "Institute of Public Affairs (IPA)"						
+		}
+	}
+}
